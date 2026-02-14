@@ -102,7 +102,7 @@ header {
 	background-color: var(--color-surface);
 	backdrop-filter: blur(13px);
 	color: var(--color-header-text);
-	padding: 10px;
+	padding: 10px 60px 10px 10px;
 	border-radius: 8px;
 	margin-bottom: 20px;
 	transition: background-color 0.3s ease;
@@ -124,6 +124,9 @@ header h1 {
 	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 0.25rem;
+	padding-right: 0;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 
@@ -230,6 +233,39 @@ li {
 	.date-range span:last-child {
 		font-size: 0.85rem;
 		opacity: 0.8;
+	}
+}
+
+/* Header responsiveness */
+@media (max-width: 768px) {
+	header {
+		padding: 10px 50px 10px 10px;
+	}
+
+	header h1 {
+		font-size: 1.75rem;
+	}
+
+	#theme-toggle {
+		right: 15px;
+		width: 26px;
+		height: 26px;
+	}
+}
+
+@media (max-width: 480px) {
+	header {
+		padding: 10px 45px 10px 10px;
+	}
+
+	header h1 {
+		font-size: 1.5rem;
+	}
+
+	#theme-toggle {
+		right: 10px;
+		width: 24px;
+		height: 24px;
 	}
 }
 
