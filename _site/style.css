@@ -83,7 +83,7 @@
 
 body {
 	font-family: 'JetBrains Mono', monospace;
-	line-height: 2.6;
+	line-height: 1.8;
 	color: var(--color-text);
 	background-color: var(--color-background);
 	background-image: var(--bg-image);
@@ -115,14 +115,15 @@ header {
 	font-weight: bold;
 	font-size: 0.9rem;
 	color: var(--color-text);
-	margin-top: -55px;
-	margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 	opacity: 0.8;
 }
 
 header h1 {
 	font-size: 2rem;
 	text-align: center;
+	margin-bottom: 0.25rem;
 }
 
 
@@ -132,8 +133,8 @@ header h1 {
 	top: 50%;
 	right: 20px;
 	transform: translateY(-50%);
-	width: 20px;
-	height: 20px;
+	width: 28px;
+	height: 28px;
 	border-radius: 50%;
 	border: 2px solid var(--color-header-text);
 	background: linear-gradient(to right, var(--color-header-text) 50%, transparent 50%);
@@ -210,6 +211,26 @@ ul {
 
 li {
 	margin-bottom: 5px;
+}
+
+/* Date Range Flexbox */
+.date-range {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+/* Mobile responsiveness for date ranges */
+@media (max-width: 640px) {
+	.date-range {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.date-range span:last-child {
+		font-size: 0.85rem;
+		opacity: 0.8;
+	}
 }
 
 /* Footer */

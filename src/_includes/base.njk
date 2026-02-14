@@ -22,12 +22,11 @@
   <body>
     <header>
       <h1>{{ title }}</h1>
+      {% if subtitle %}
+      <p class="subtitle"><a href="mailto:{{ subtitle }}">{{ subtitle }}</a></p>
+      {% endif %}
       <button id="theme-toggle" aria-label="Toggle theme"></button>
     </header>
-
-    {% if subtitle %}
-    <p class="subtitle"><a href="mailto:{{ subtitle }}">{{ subtitle }}</a></p>
-    {% endif %}
 
     <main>
       {{ content | safe }}
