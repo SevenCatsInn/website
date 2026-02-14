@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Post 2</title>
+	<title>{{ title }}</title>
     <link rel="stylesheet" href="/style.css"/>
     <script>
       // Initialize theme before page render to prevent flash
@@ -18,14 +18,12 @@
   </head>
   <body>
     <header>
-      <h1>Post 2</h1>
+      <h1>{{ title }}</h1>
       <button id="theme-toggle" aria-label="Toggle theme"></button>
     </header>
 
     <main>
-      <h2>Subtitle 2</h2>
-<p>Content 2</p>
-
+      {{ content | safe }}
     </main>
 
     <footer>
