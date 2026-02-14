@@ -20,6 +20,14 @@
 	--palette-zinc-800-trans: #151515c5;
 	--palette-shadow-light: rgba(0, 0, 0, 0.1);
 	--palette-shadow-dark: rgba(1, 1, 1, 0.3);
+	--gradient-dark: linear-gradient(150deg,
+			rgba(32, 9, 58, 1) 0%,
+			rgba(55, 9, 58, 1) 80%,
+			rgba(125, 50, 40, 1) 100%);
+	--gradient-light: linear-gradient(210deg,
+			rgba(100, 89, 252, 1) 0%,
+			rgba(137, 89, 252, 1) 40%,
+			rgba(240, 170, 100, 1) 100%);
 }
 
 /* Dark mode colors (system preference) */
@@ -52,6 +60,7 @@
 	--color-footer-text: var(--palette-white);
 	--color-border-main: var(--palette-blue-400);
 	--color-border-secn: var(--palette-blue-600);
+	--gradient-background: var(--gradient-dark);
 	--shadow: var(--palette-shadow-dark);
 	--bg-image: url("./pictures/axial_compressor.jpg");
 }
@@ -70,6 +79,7 @@
 	--color-border-main: var(--palette-slate-900);
 	--color-border-secn: var(--palette-slate-700);
 	--shadow: var(--palette-shadow-light);
+	--gradient-background: var(--gradient-light);
 	--bg-image: url("./pictures/turbofan_light.jpg");
 }
 
@@ -85,8 +95,12 @@ body {
 	font-family: 'JetBrains Mono', monospace;
 	line-height: 1.8;
 	color: var(--color-text);
-	background-color: var(--color-background);
-	background-image: var(--bg-image);
+	/* Gradients */
+	background: var(--gradient-background);
+	/* Solid color */
+	/* background-color: var(--color-background); */
+	/* Picture */
+	/* background-image: var(--bg-image); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -102,6 +116,7 @@ header {
 	background-color: var(--color-surface);
 	backdrop-filter: blur(13px);
 	color: var(--color-header-text);
+	box-shadow: 0 2px 5px var(--shadow);
 	padding: 10px 60px 10px 10px;
 	border-radius: 8px;
 	margin-bottom: 20px;
