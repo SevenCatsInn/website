@@ -4,7 +4,7 @@
 	--palette-slate-900: #333;
 	--palette-slate-700: #2c3e50;
 	--palette-slate-100: #f4f4f4;
-	--palette-white: white;
+	--palette-white: #ffffff;
 	--palette-black: #000000;
 	--palette-blue-600: #2980b9;
 	--palette-blue-500: #3498db;
@@ -15,22 +15,10 @@
 	--palette-zinc-700: #3f3f46;
 	--palette-zinc-200: #e4e4e7;
 	--palette-zinc-100: #fafafa;
+	--palette-white-trans: #ffffff85;
+	--palette-zinc-800-trans: #27272aa5;
 	--palette-shadow-light: rgba(0, 0, 0, 0.1);
 	--palette-shadow-dark: rgba(0, 0, 0, 0.3);
-
-	/* Light mode colors (default) */
-	--color-text: var(--palette-slate-900);
-	--color-background: var(--palette-slate-100);
-	--color-surface: var(--palette-white);
-	--color-header-bg: var(--palette-slate-700);
-	--color-header-text: var(--palette-white);
-	--color-heading: var(--palette-slate-700);
-	--color-accent: var(--palette-blue-500);
-	--color-accent-hover: var(--palette-blue-600);
-	--color-footer-text: var(--palette-black);
-	--color-border: var(--palette-blue-500);
-	--shadow: var(--palette-shadow-light);
-	--bg-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&q=80');
 }
 
 /* Dark mode colors (system preference) */
@@ -38,47 +26,53 @@
 	:root {
 		--color-text: var(--palette-zinc-200);
 		--color-background: var(--palette-zinc-900);
-		--color-surface: var(--palette-zinc-800);
+		--color-surface: var(--palette-zinc-800-trans);
 		--color-header-bg: var(--palette-zinc-700);
 		--color-header-text: var(--palette-zinc-100);
 		--color-heading: var(--palette-zinc-100);
 		--color-accent: var(--palette-blue-400);
 		--color-accent-hover: var(--palette-blue-300);
 		--color-footer-text: var(--palette-black);
-		--color-border: var(--palette-blue-400);
+		--color-border-main: var(--palette-blue-400);
+		--color-border-secn: var(--palette-slate-700);
 		--shadow: var(--palette-shadow-dark);
-		--bg-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&q=80');
+		--bg-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80')
 	}
+}
+
+[data-theme="dark"] {
+	--color-text: var(--palette-zinc-200);
+	--color-background: var(--palette-zinc-900);
+	--color-surface: var(--palette-zinc-800-trans);
+	--color-header-bg: var(--palette-zinc-700);
+	--color-header-text: var(--palette-zinc-100);
+	--color-heading: var(--palette-zinc-100);
+	--color-accent: var(--palette-blue-400);
+	--color-accent-hover: var(--palette-blue-300);
+	--color-footer-text: var(--palette-white);
+	--color-border-main: var(--palette-blue-400);
+	--color-border-secn: var(--palette-slate-700);
+	--shadow: var(--palette-shadow-dark);
+	--bg-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80')
 }
 
 /* Manual theme override (higher specificity than media query) */
 [data-theme="light"] {
 	--color-text: var(--palette-slate-900);
 	--color-background: var(--palette-slate-100);
-	--color-surface: var(--palette-white);
+	--color-surface: var(--palette-white-trans);
 	--color-header-bg: var(--palette-slate-700);
-	--color-header-text: var(--palette-white);
+	--color-header-text: var(--palette-black);
 	--color-heading: var(--palette-slate-700);
 	--color-accent: var(--palette-blue-500);
 	--color-accent-hover: var(--palette-blue-600);
 	--color-footer-text: var(--palette-black);
-	--color-border: var(--palette-blue-500);
+	--color-border-main: var(--palette-blue-500);
+	--color-border-secn: var(--palette-slate-700);
 	--shadow: var(--palette-shadow-light);
+	--bg-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&q=80');
 }
 
-[data-theme="dark"] {
-	--color-text: var(--palette-zinc-200);
-	--color-background: var(--palette-zinc-900);
-	--color-surface: var(--palette-zinc-800);
-	--color-header-bg: var(--palette-zinc-700);
-	--color-header-text: var(--palette-zinc-100);
-	--color-heading: var(--palette-zinc-100);
-	--color-accent: var(--palette-blue-400);
-	--color-accent-hover: var(--palette-blue-300);
-	--color-footer-text: var(--palette-black);
-	--color-border: var(--palette-blue-400);
-	--shadow: var(--palette-shadow-dark);
-}
 
 /* CSS Reset & Body Styles */
 * {
@@ -105,7 +99,7 @@ body {
 
 /* Header Styles */
 header {
-	background-color: var(--color-header-bg);
+	background-color: transparent;
 	color: var(--color-header-text);
 	padding: 20px;
 	border-radius: 998px;
@@ -151,6 +145,7 @@ header h1 {
 /* Main Content */
 main {
 	background-color: var(--color-surface);
+	backdrop-filter: blur(5px);
 	padding: 30px;
 	border-radius: 8px;
 	box-shadow: 0 2px 5px var(--shadow);
@@ -159,11 +154,22 @@ main {
 
 /* Typography */
 h2 {
+	font-size: 1.3rem;
 	color: var(--color-heading);
 	margin-top: 20px;
 	margin-bottom: 10px;
-	border-bottom: 2px solid var(--color-border);
+	border-bottom: 2px solid var(--color-border-main);
 	padding-bottom: 5px;
+	transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+h3 {
+	font-size: 1.05rem;
+	color: var(--color-heading);
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid var(--color-border-secn);
+	padding-bottom: 1px;
 	transition: color 0.3s ease, border-color 0.3s ease;
 }
 
