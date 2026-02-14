@@ -12,5 +12,6 @@ module.exports = function (eleventyConfig) {
 			input: "src",
 			output: "_site",
 		},
+		pathPrefix: "/website/",
 	};
 };
