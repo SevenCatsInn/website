@@ -1,11 +1,12 @@
 /* CSS Custom Properties for Theme Support */
 :root {
 	/* Color Palette - Define once, reuse everywhere */
-	--palette-slate-900: #333;
+	--palette-slate-900: #202020;
 	--palette-slate-700: #2c3e50;
 	--palette-slate-100: #f4f4f4;
 	--palette-white: #ffffff;
 	--palette-black: #000000;
+	--palette-blue-800: #2950b9;
 	--palette-blue-600: #2980b9;
 	--palette-blue-500: #3498db;
 	--palette-blue-400: #60a5fa;
@@ -15,10 +16,10 @@
 	--palette-zinc-700: #3f3f46;
 	--palette-zinc-200: #e4e4e7;
 	--palette-zinc-100: #fafafa;
-	--palette-white-trans: #ffffff85;
-	--palette-zinc-800-trans: #27272aa5;
+	--palette-white-trans: #ffffff99;
+	--palette-zinc-800-trans: #151515c5;
 	--palette-shadow-light: rgba(0, 0, 0, 0.1);
-	--palette-shadow-dark: rgba(0, 0, 0, 0.3);
+	--palette-shadow-dark: rgba(1, 1, 1, 0.3);
 }
 
 /* Dark mode colors (system preference) */
@@ -36,7 +37,6 @@
 		--color-border-main: var(--palette-blue-400);
 		--color-border-secn: var(--palette-slate-700);
 		--shadow: var(--palette-shadow-dark);
-		--bg-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80')
 	}
 }
 
@@ -51,9 +51,9 @@
 	--color-accent-hover: var(--palette-blue-300);
 	--color-footer-text: var(--palette-white);
 	--color-border-main: var(--palette-blue-400);
-	--color-border-secn: var(--palette-slate-700);
+	--color-border-secn: var(--palette-blue-600);
 	--shadow: var(--palette-shadow-dark);
-	--bg-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80')
+	--bg-image: url("./pictures/axial_compressor.jpg");
 }
 
 /* Manual theme override (higher specificity than media query) */
@@ -65,12 +65,12 @@
 	--color-header-text: var(--palette-black);
 	--color-heading: var(--palette-slate-700);
 	--color-accent: var(--palette-blue-500);
-	--color-accent-hover: var(--palette-blue-600);
+	--color-accent-hover: var(--palette-blue-800);
 	--color-footer-text: var(--palette-black);
-	--color-border-main: var(--palette-blue-500);
+	--color-border-main: var(--palette-slate-900);
 	--color-border-secn: var(--palette-slate-700);
 	--shadow: var(--palette-shadow-light);
-	--bg-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&q=80');
+	--bg-image: url("./pictures/turbofan_light.jpg");
 }
 
 
@@ -92,26 +92,39 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	padding: 20px;
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 	transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 /* Header Styles */
 header {
-	background-color: transparent;
+	background-color: var(--color-surface);
+	backdrop-filter: blur(13px);
 	color: var(--color-header-text);
-	padding: 20px;
-	border-radius: 998px;
+	padding: 10px;
+	border-radius: 8px;
 	margin-bottom: 20px;
 	transition: background-color 0.3s ease;
 	position: relative;
+}
+
+/* Subtitle */
+.subtitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: var(--color-text);
+	margin-top: -55px;
+	margin-bottom: 20px;
+	opacity: 0.8;
 }
 
 header h1 {
 	font-size: 2rem;
 	text-align: center;
 }
+
 
 /* Theme Toggle Button */
 #theme-toggle {
@@ -145,10 +158,10 @@ header h1 {
 /* Main Content */
 main {
 	background-color: var(--color-surface);
-	backdrop-filter: blur(5px);
 	padding: 30px;
 	border-radius: 8px;
 	box-shadow: 0 2px 5px var(--shadow);
+	backdrop-filter: blur(10px);
 	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -173,15 +186,15 @@ h3 {
 	transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-p {
-	margin-bottom: 15px;
-}
+/* p { */
+/* margin-bottom: 15px; */
+/* } */
 
 /* Links */
 a {
-	color: var(--color-accent);
+	color: var(--color-header-text);
 	text-decoration: none;
-	transition: color 0.3s ease;
+	transition: color 0.2s ease;
 }
 
 a:hover {
