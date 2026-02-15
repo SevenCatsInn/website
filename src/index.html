@@ -6,11 +6,18 @@ subtitle: f.vaccari@tudelft.nl
 
 <img src="{{ '/pictures/tu_delft_pic_small.png' | url }}" alt="Profile picture" style="width: 200px; height: 200px; object-fit: cover; display: block; margin: 0 auto 2rem auto; border-radius: 10px;">
 
-Hi, I am Francesco, welcome to my website.
-
 {%- for post in collections.content -%}
+{%- if post.data.showTitle != false -%}
 <h2>
 	{{ post.data.title }}
 </h2>
+{%- endif -%}
 {{ post.content }}
 {%- endfor -%}
+
+<!-- <figure> -->
+<!-- 	<img class=scaled src="/pictures/incognito.jpg" alt="Me in a toilet" width=150 height=200> -->
+<!-- 	<img class=scaled src="/pictures/hacking.jpg" alt="Me in a toilet" width=180 height=200> -->
+<!-- 	<img class=scaled src="/pictures/me_in_a_toilet.jpg" alt="Me in a toilet" width=200 height=200> -->
+<!-- 	<figcaption>going incognito || late nights coding || the toilets of Wawel Castle</figcaption> -->
+<!-- </figure> -->
