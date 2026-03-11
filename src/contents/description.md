@@ -28,6 +28,6 @@ At the end of 2021 I took a break from my studies to carry out an internship at 
 <div class="figure-row">
 	<figure>
 		<img class=scaled src="/pictures/at03_car.jpg" alt="AT03 F1 Car" height=180>
-		<figcaption>AT03, 21/22 Season (<a href="https://en.wikipedia.org/wiki/AlphaTauri_AT03#/media/File:FIA_F1_Austria_2022_Nr._10_Gasly.jpg">L. Raich</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>)</figcaption>
+		<figcaption>AT03, 2022 F1 Season (<a href="https://en.wikipedia.org/wiki/AlphaTauri_AT03#/media/File:FIA_F1_Austria_2022_Nr._10_Gasly.jpg">L. Raich</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>)</figcaption>
 	</figure>
 </div>
