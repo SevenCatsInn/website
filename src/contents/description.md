@@ -4,9 +4,6 @@ date: 2000-01-01
 showTitle: false
 ---
 
-Hi there, I am Francesco, welcome to my website.
-
-<br>
 I am currently working at TU Delft, where I am developing an equation-oriented preliminary code for design and analysis of turbomachinery. My goal is to offer a single design platform for turbines and compressors of any meridional topology, with specific focus on gradient-based design optimization.
 <br>
 <br>
@@ -15,11 +12,11 @@ I previously attended POLIMI, where I graduated with a master thesis on the aero
 <div class="figure-row">
 	<figure>
 		<img class=scaled src="/pictures/windTunnel_CFD.png" alt="Tunnel CFD" height=200 >
-		<figcaption>From simulation...</figcaption>
+		<figcaption>CFD of a linear cascade supersonic windtunnel</figcaption>
 	</figure>
 	<figure>
 		<img class=scaled src="/pictures/supersonic_blade.jpg" alt="Supersonic blade" height=200 >
-		<figcaption>...to manufacturing</figcaption>
+		<figcaption>Manufactured components</figcaption>
 	</figure>
 </div>
 
