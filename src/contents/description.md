@@ -7,6 +7,11 @@ showTitle: false
 I am currently working at TU Delft, where I am developing an equation-oriented preliminary code for design and analysis of turbomachinery. My goal is to offer a single design platform for turbines and compressors of any meridional topology, with specific focus on gradient-based design optimization.
 <br>
 <br>
+<div class="figure-row">
+	<figure>
+		<img class=scaled src="/pictures/in_front_of_engine" alt="AeroEngine" height=180>
+	</figure>
+</div>
 
 I previously attended POLIMI, where I graduated with a master thesis on the aerodynamic and mechanical design of an unsteady supersonic cascade wind tunnel. We set out to study the effect of high frequency inlet flow oscillations on fully supersonic cascades, with the goal of applying such knowledge to turbine design for rotating detonation engines. The tunnel is under construction at the Laboratory of Fluid Machinery.
 <div class="figure-row">
