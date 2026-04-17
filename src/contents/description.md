@@ -9,7 +9,7 @@ I am currently working at TU Delft, where I am developing an equation-oriented p
 <br>
 <div class="figure-row">
 	<figure>
-		<img class=scaled src="/pictures/in_front_of_engine" alt="AeroEngine" height=180>
+		<img class=scaled src="/pictures/in_front_of_engine.jpg" alt="AeroEngine" height=180>
 	</figure>
 </div>
 
