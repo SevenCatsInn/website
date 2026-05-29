@@ -34,8 +34,15 @@
 
 		<footer>
 			<p>
-				=== Updated on 14-02-2026 ===
+				=== Updated on <span id="last_modified"></span> ===
 			</p>
+			<script>
+				date =  new Date;
+				year = date.getFullYear();
+				month = date.getMonth() + 1;
+				day = date.getDate();
+				document.getElementById("last_modified").innerHTML = day + "-" + month + "-" + year;
+			</script>
 		</footer>
 
 		<script>
