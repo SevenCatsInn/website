@@ -4,7 +4,7 @@ date: 2000-01-01
 showTitle: false
 ---
 
-I am currently working at TU Delft, where I am developing an equation-oriented preliminary code for design and analysis of turbomachinery. My goal is to offer a single design platform for turbines and compressors of any meridional topology, with specific focus on gradient-based design optimization.
+I am currently working at TU Delft, where I am developing *ADeT*, an equation-oriented preliminary code for design and analysis of turbomachinery. My goal is to offer a single design platform for turbines and compressors of any meridional topology, with specific focus on gradient-based design optimization. Check out the <a href="https://github.com/Propulsion-Power-TU-Delft/adet">repository</a>.
 <br>
 <br>
 <div class="figure-row">
