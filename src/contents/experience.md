@@ -3,10 +3,16 @@ title: Experience
 date: 2010-01-01
 ---
 
+### ArianeGroup/TU Delft
+<div class="date-range">
+  <span>PhD Candidate</span>
+  <span>Nov. '26 - Present</span>
+</div>
+
 ### TU Delft
 <div class="date-range">
   <span>Research assistant</span>
-  <span>Nov. '24 - Present</span>
+  <span>Nov. '24 - Nov '26</span>
 </div>
 
 ### Institute for Turbomachinery and Fluid Dynamics, LUH
