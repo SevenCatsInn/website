@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="12.245804"
      inkscape:cx="5.4304315"
-     inkscape:cy="8.1252322"
+     inkscape:cy="8.1252321"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="-8"
@@ -47,6 +47,18 @@
        width="168.60892"
        height="108.09449"
        id="rect1" />
+    <rect
+       x="-39.727033"
+       y="-20.55643"
+       width="168.60892"
+       height="108.09449"
+       id="rect4" />
+    <rect
+       x="-1.6167978"
+       y="-29.564303"
+       width="88.69291"
+       height="103.47506"
+       id="rect5" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -62,20 +74,37 @@
        ry="1.2720141" />
     <text
        xml:space="preserve"
-       transform="matrix(0.13848743,7.1255167e-4,0.00555443,0.15721508,3.2315813,3.120942)"
-       id="text2"
-       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#ffc284;stroke:#560636;stroke-width:0.649732;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"><tspan
+       transform="matrix(0.17149931,6.4132388e-4,0.00687847,0.14149961,2.7175029,4.1360272)"
+       id="v2"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:58.6667px;line-height:1.4;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#5c0000;stroke:#560636;stroke-width:0.649732;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;fill-opacity:1"><tspan
          x="-1.6171875"
-         y="27.438898"
-         id="tspan3">V</tspan></text>
+         y="27.502244"
+         id="tspan2">V</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.22159216,0,0,0.20658721,8.5724923,0.78028932)"
-       id="text1"
-       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#ffc284;fill-opacity:1;stroke:#560636;stroke-width:0.793018;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-       inkscape:label="text1"><tspan
+       transform="matrix(0.18123918,0,0,0.1689667,7.3107651,1.7371444)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:58.6667px;line-height:1.4;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#5c0000;fill-opacity:1;stroke:#560636;stroke-width:0.793018;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       inkscape:label="f2"><tspan
          x="-39.726562"
-         y="36.44671"
-         id="tspan4">F</tspan></text>
+         y="36.510056"
+         id="tspan3">F</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.17149931,6.4132388e-4,0.00687847,0.14149961,2.8903512,4.2440574)"
+       id="v1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:58.6667px;line-height:1.4;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#ffc284;stroke:#560636;stroke-width:0.64841348;stroke-linecap:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"><tspan
+         x="-1.6171875"
+         y="27.502244"
+         id="tspan6">V</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18123918,0,0,0.1689667,7.1595229,1.6075082)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:58.6667px;line-height:1.4;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#ffc284;fill-opacity:1;stroke:#560636;stroke-width:0.793018;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       inkscape:label="f1"><tspan
+         x="-39.726562"
+         y="36.510056"
+         id="tspan7">F</tspan></text>
   </g>
 </svg>
