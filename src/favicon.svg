@@ -23,17 +23,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="6.1229021"
-     inkscape:cx="-34.05248"
-     inkscape:cy="20.006853"
+     inkscape:zoom="12.245804"
+     inkscape:cx="21.517574"
+     inkscape:cy="19.63938"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showguides="false" />
   <defs
      id="defs1">
+    <rect
+       x="-1.6167978"
+       y="-29.564303"
+       width="88.69291"
+       height="103.47506"
+       id="rect3" />
     <rect
        x="-39.727033"
        y="-20.55643"
@@ -55,12 +62,20 @@
        ry="1.4803739" />
     <text
        xml:space="preserve"
-       transform="matrix(0.11102711,0,0,0.11102711,4.863724,2.3741594)"
+       transform="matrix(-0.21048471,0,0,0.19623189,-1.5144304,0.84416276)"
        id="text1"
-       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:#ffc284;fill-opacity:1;stroke-width:1.89143;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;paint-order:stroke markers fill"
+       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:#ffc284;fill-opacity:1;stroke:#4f0000;stroke-width:0.793018;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
        inkscape:label="text1"><tspan
          x="-39.726562"
          y="36.44671"
-         id="tspan2">FV</tspan></text>
+         id="tspan1">F</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.14705263,0.05767341,-0.05397297,0.15713469,1.4544277,2.3607592)"
+       id="text2"
+       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#ffc284;stroke:#4f0000;stroke-width:0.649732;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"><tspan
+         x="-1.6171875"
+         y="27.438898"
+         id="tspan2">V</tspan></text>
   </g>
 </svg>
