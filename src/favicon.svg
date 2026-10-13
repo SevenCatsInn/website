@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="6.1229021"
+     inkscape:cx="-34.05248"
+     inkscape:cy="20.006853"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="-39.727033"
+       y="-20.55643"
+       width="168.60892"
+       height="108.09449"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#560636;stroke-width:0.685867;stroke-linecap:square;stroke-miterlimit:3.6;paint-order:stroke markers fill;fill-opacity:1"
+       id="rect2"
+       width="8.4666662"
+       height="8.4666662"
+       x="0"
+       y="0"
+       ry="1.4803739" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.11102711,0,0,0.11102711,4.863724,2.3741594)"
+       id="text1"
+       style="font-size:58.6667px;line-height:1.4;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:#ffc284;fill-opacity:1;stroke-width:1.89143;stroke-linecap:square;stroke-miterlimit:3.6;stroke-dasharray:none;paint-order:stroke markers fill"
+       inkscape:label="text1"><tspan
+         x="-39.726562"
+         y="36.44671"
+         id="tspan2">FV</tspan></text>
+  </g>
+</svg>

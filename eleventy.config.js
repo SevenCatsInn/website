@@ -19,6 +19,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/style.css");
 	// Copy images from pictures directory
 	eleventyConfig.addPassthroughCopy("./src/pictures");
+	// Copy the favicon shown in the browser tab
+	eleventyConfig.addPassthroughCopy("./src/favicon.svg");
 	// Watch for CSS changes (for Tailwind output)
 	eleventyConfig.addWatchTarget("./src/**/*.css");
 	eleventyConfig.setWatchThrottleWaitTime(100);
