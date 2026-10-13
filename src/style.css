@@ -104,7 +104,12 @@ body {
 body::before {
 	content: "";
 	position: fixed;
-	inset: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* Fixed height so mobile URL-bar show/hide doesn't resize (and rescale) the background */
+	height: 100vh;
+	height: 100lvh;
 	z-index: -1;
 	background-image: var(--background-image);
 	background-size: cover;
