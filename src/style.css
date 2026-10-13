@@ -20,14 +20,7 @@
 	--palette-zinc-800-trans: #151515c5;
 	--palette-shadow-light: rgba(0, 0, 0, 0.1);
 	--palette-shadow-dark: rgba(1, 1, 1, 0.3);
-	--gradient-dark: linear-gradient(150deg,
-			rgba(32, 9, 58, 1) 0%,
-			rgba(55, 9, 58, 1) 80%,
-			rgba(125, 50, 40, 1) 100%);
-	--gradient-light: linear-gradient(210deg,
-			rgba(100, 89, 252, 1) 0%,
-			rgba(137, 89, 252, 1) 40%,
-			rgba(240, 170, 100, 1) 100%);
+	--background-image: url("./background_light.svg");
 }
 
 /* Dark mode colors (system preference) */
@@ -44,7 +37,7 @@
 		--color-footer-text: var(--palette-white);
 		--color-border-main: var(--palette-blue-400);
 		--color-border-secn: var(--palette-blue-600);
-		--gradient-background: var(--gradient-dark);
+		--background-image: url("./background_dark.svg");
 		--shadow: var(--palette-shadow-dark);
 		--bg-image: url("./pictures/axial_compressor.jpg");
 	}
@@ -62,7 +55,7 @@
 	--color-footer-text: var(--palette-white);
 	--color-border-main: var(--palette-blue-400);
 	--color-border-secn: var(--palette-blue-600);
-	--gradient-background: var(--gradient-dark);
+	--background-image: url("./background_dark.svg");
 	--shadow: var(--palette-shadow-dark);
 	--bg-image: url("./pictures/axial_compressor.jpg");
 }
@@ -81,7 +74,7 @@
 	--color-border-main: var(--palette-slate-900);
 	--color-border-secn: var(--palette-slate-700);
 	--shadow: var(--palette-shadow-light);
-	--gradient-background: var(--gradient-light);
+	--background-image: url("./background_light.svg");
 	--bg-image: url("./pictures/turbofan_light.jpg");
 }
 
@@ -97,33 +90,26 @@ body {
 	font-family: 'JetBrains Mono', monospace;
 	line-height: 1.8;
 	color: var(--color-text);
-	/* Gradients */
-	background: var(--gradient-background);
 	/* Solid color */
 	/* background-color: var(--color-background); */
 	/* Picture */
 	/* background-image: var(--bg-image); */
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 	padding: 20px;
 	max-width: 1200px;
 	margin: 0 auto;
 	transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Background SVG overlay: above the gradient, below the page content */
+/* Background SVG (gradient + pattern): below the page content */
 body::before {
 	content: "";
 	position: fixed;
 	inset: 0;
 	z-index: -1;
-	background-image: url("./background.svg");
+	background-image: var(--background-image);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	opacity: 0.3;
 	pointer-events: none;
 }
 

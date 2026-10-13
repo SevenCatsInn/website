@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   sodipodi:docname="background_dark.svg"
+   sodipodi:docname="background_light.svg"
    inkscape:export-filename="background_gradient.png"
    inkscape:export-xdpi="200"
    inkscape:export-ydpi="200"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1"
-     inkscape:cx="1173.5"
-     inkscape:cy="526.5"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="996.31345"
+     inkscape:cy="516.89506"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="-8"
@@ -38,6 +38,30 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <linearGradient
+       id="background-gradient"
+       gradientUnits="userSpaceOnUse"
+       x1="1513.8"
+       y1="-308.4"
+       x2="534.2"
+       y2="1388.4">
+      <stop
+         offset="0"
+         style="stop-color:rgb(100,89,252);stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="0.4"
+         style="stop-color:rgb(137,89,252);stop-opacity:1"
+         id="stop2" />
+      <stop
+         offset="0.7"
+         style="stop-color:rgb(188,129,176);stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="1"
+         style="stop-color:rgb(240,170,100);stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
     <pattern
        inkscape:collect="always"
        xlink:href="#ap107"
@@ -82,12 +106,20 @@
          y="121.00073" />
     </clipPath>
   </defs>
+  <rect
+     id="rect-gradient"
+     style="fill:url(#background-gradient);stroke:none;opacity:1"
+     width="2048"
+     height="1080"
+     x="0"
+     y="0" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="opacity:0.3">
     <rect
-       style="fill:url(#pattern31);fill-rule:nonzero;stroke:none;stroke-width:3.78979;stroke-linecap:round;paint-order:stroke markers fill"
+       style="fill:url(#pattern31);fill-rule:nonzero;stroke:none;stroke-width:3.78979;stroke-linecap:round;paint-order:stroke markers fill;opacity:0.43645485"
        id="rect1"
        width="2048"
        height="1080"

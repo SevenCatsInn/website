@@ -21,8 +21,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/pictures");
 	// Copy the favicon shown in the browser tab
 	eleventyConfig.addPassthroughCopy("./src/favicon.svg");
-	// Copy the background overlay drawn above the body gradient
-	eleventyConfig.addPassthroughCopy("./src/background.svg");
+	// Copy the background images (gradient + pattern) for each theme
+	eleventyConfig.addPassthroughCopy("./src/background_light.svg");
+	eleventyConfig.addPassthroughCopy("./src/background_dark.svg");
 	// Watch for CSS changes (for Tailwind output)
 	eleventyConfig.addWatchTarget("./src/**/*.css");
 	eleventyConfig.setWatchThrottleWaitTime(100);
